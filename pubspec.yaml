@@ -1,5 +1,5 @@
 name: folderslint
-description: A sample command-line application.
+description: Directory structure linter for Front-End projects.
 version: 1.0.0
 repository: https://github.com/Takin-Profit/folderslint.dart
 homepage: https://github.com/Takin-Profit/folderslint.dart
