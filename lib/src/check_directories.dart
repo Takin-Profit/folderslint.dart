@@ -1,5 +1,8 @@
+import 'package:path/path.dart' as p;
+
 import 'dart:io';
-import 'rules.dart'; // Assuming that the rules.dart file is in the same directory
+import 'rules.dart';
+
 
 List<String> checkDirectories(List<String> filePaths, List<String> rules, String root) {
   var errorPaths = <String>[];
@@ -7,6 +10,10 @@ List<String> checkDirectories(List<String> filePaths, List<String> rules, String
   for (var path in filePaths) {
     // Skip files which are not in the root directory
     if (!path.startsWith(root)) {
+      continue;
+    }
+    // skip files in .git folder
+    if (path.startsWith(p.absolute('.git'))) {
       continue;
     }
 
