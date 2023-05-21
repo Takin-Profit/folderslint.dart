@@ -1,7 +1,6 @@
 {
   "rules": [
     "lib/*",
-    "test/*",
-    "bin/*"
+    "test/*"
    ]
 }

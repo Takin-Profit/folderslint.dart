@@ -4,8 +4,8 @@ const String ERROR_MESSAGE = 'Directory is not allowed by config';
 const String SUCCESS_MESSAGE = '✅ All checked directories are allowed by config';
 
 void logError(String path) {
-  print(chalk.underline(path));
-  print('${chalk.red('error')}  $ERROR_MESSAGE');
+  print('${chalk.red('error ❌')} :  ${chalk.red(chalk.underline(path))}');
+  print(chalk.bgBrightRed(ERROR_MESSAGE));
 }
 
 void logErrorsStats(List<String> errorPaths) {
