@@ -1,5 +1,3 @@
-# folderslint.dart
-
 # FoldersLint <img src="https://ph-files.imgix.net/ca08c2f9-856e-4995-b500-85935be555e7.png" alt="FoldersLint logo" width="90" height="90" align="right" />
 
 Directory structure linter for Front-End projects
