@@ -1,0 +1,8 @@
+{
+  "rules": [
+    "components/*",
+    "pages/components/*/utils",
+    "hooks",
+    "legacy/**"
+   ]
+}
