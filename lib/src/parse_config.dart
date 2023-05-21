@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-const String CONFIG_PATH = '.folderslintrc';
+const String configPath = '.folderslintrc';
 
 Map<String, dynamic> parseConfig() {
   try {
-    final config = File(CONFIG_PATH).readAsStringSync();
+    final config = File(configPath).readAsStringSync();
     return validateParsedConfig(jsonDecode(config));
   } catch (err) {
     stderr.writeln(err);
