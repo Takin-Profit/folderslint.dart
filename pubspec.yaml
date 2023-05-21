@@ -1,6 +1,6 @@
 name: folderslint
 description: Directory structure linter for Front-End projects.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/Takin-Profit/folderslint.dart
 homepage: https://github.com/Takin-Profit/folderslint.dart
 
