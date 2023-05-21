@@ -1,3 +1,7 @@
+## 1.0.3
+
+- fix error in .gitignore parsing
+
 ## 1.0.2
 
 - improve logging
